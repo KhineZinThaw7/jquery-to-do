@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jquery To Do List</title>
+    <!-- <link rel="stylesheet" href="css/font-awesome.css" /> -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <h4>To Do List (JQuery)</h4>
+                <form class="row">
+                    <input type="text" class="form-control col-md-9 mr-1" id="task" placeholder="Write the task" />
+                    <button type="button" id="addNew" class="btn btn-primary col-md-2">
+                        Add New
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-3 mr-5">
+            <div class="col-md-8">
+                <div class="table-responsive">
+                    <table class="table table-striped" id="list"></table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/todo.js"></script>
+</body>
+</html>
